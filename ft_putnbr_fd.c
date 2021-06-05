@@ -6,7 +6,7 @@
 /*   By: jamrabhi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/24 22:54:01 by jamrabhi          #+#    #+#             */
-/*   Updated: 2019/10/24 23:18:22 by jamrabhi         ###   ########.fr       */
+/*   Updated: 2021/06/05 19:50:42 by jamrabhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	unsigned int nb_cpy;
+	unsigned int	nb_cpy;
 
 	nb_cpy = n;
 	if (n < 0)
